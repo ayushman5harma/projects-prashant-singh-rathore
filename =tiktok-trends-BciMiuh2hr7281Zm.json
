@@ -1,0 +1,462 @@
+{
+  "updatedAt": "2025-12-17T07:06:20.287Z",
+  "createdAt": "2025-12-17T05:51:43.016Z",
+  "id": "BciMiuh2hr7281Zm",
+  "name": "TikTok trends",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "Run actor and get dataset",
+        "actorSource": "store",
+        "actorId": {
+          "__rl": true,
+          "value": "WalN3E4ojZoOiQxQ3",
+          "mode": "list",
+          "cachedResultName": "TikTok Trending Videos Scraper (igview-owner/tiktok-data-scarper)",
+          "cachedResultUrl": "https://console.apify.com/actors/WalN3E4ojZoOiQxQ3/input"
+        },
+        "customBody": "{\n    \"trending_count\": 10,\n    \"trending_region\": \"us\"\n}"
+      },
+      "type": "@apify/n8n-nodes-apify.apify",
+      "typeVersion": 1,
+      "position": [
+        48,
+        16
+      ],
+      "id": "25fead5b-bfe6-47f5-b9b9-63da4acbcf70",
+      "name": "Run an Actor and get dataset",
+      "credentials": {
+        "apifyApi": {
+          "id": "O11Juehgwb5mC7hM",
+          "name": "Ayushman's Apify Account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -144,
+        16
+      ],
+      "id": "e6aff678-d239-49a6-9100-969ea2a6ebfd",
+      "name": "When clicking ‘Execute workflow’"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Run an Actor and get dataset",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {
+    "Run an Actor and get dataset": [
+      {
+        "json": {
+          "source": "trending",
+          "region": "US",
+          "aweme_id": "",
+          "video_id": "7562383028681559310",
+          "title": "Me and hb so tuff 🫩🫩 #fyp #hello #yippee #homeboy #imacutiepie @justin ",
+          "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-i-photomode-us/1da3b83a371241609a2fa1e0dd6a5130~tplv-photomode-image-v1:q70.webp?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=56ae30f3&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=DJ6DHvurOAR2VVziW4y90wgH3h8%3D",
+          "ai_dynamic_cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-i-photomode-us/1da3b83a371241609a2fa1e0dd6a5130~tplv-photomode-image-v1:q70.webp?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=56ae30f3&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=DJ6DHvurOAR2VVziW4y90wgH3h8%3D",
+          "origin_cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-i-photomode-us/1da3b83a371241609a2fa1e0dd6a5130~tplv-photomode-image-v1:q70.webp?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=56ae30f3&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=DJ6DHvurOAR2VVziW4y90wgH3h8%3D",
+          "duration": 0,
+          "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6867624795144604422.mp3",
+          "wmplay": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6867624795144604422.mp3",
+          "size": 0,
+          "wm_size": 0,
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6867624795144604422.mp3",
+          "music_info": {
+            "id": "6867624819802917637",
+            "title": "GABBY Tisakorean Bryansanon",
+            "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6867624795144604422.mp3",
+            "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/8ad0fe32da9f7ace19b4f0d32ca8566b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=289d9ccd&x-expires=1766041200&x-signature=g3SlfSGrQ7VPcsbLZPsyGYdX%2Bj0%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva",
+            "author": "Bryansanon",
+            "original": false,
+            "duration": 17,
+            "album": ""
+          },
+          "play_count": 2007,
+          "digg_count": 235,
+          "comment_count": 1,
+          "share_count": 17,
+          "download_count": 2,
+          "create_time": 1760754537,
+          "anchors": null,
+          "anchors_extras": "",
+          "is_ad": false,
+          "commerce_info": {
+            "adv_promotable": false,
+            "branded_content_type": 0
+          },
+          "commercial_video_info": "",
+          "item_comment_settings": 0,
+          "mentioned_users": "7041434432865469486",
+          "author": {
+            "id": "7521692751843492877",
+            "unique_id": "soxmmerr",
+            "nickname": "sum 🦦",
+            "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/169c40b6d87edd605b55bb211919465b~tplv-tiktokx-cropcenter:300:300.jpeg?dr=14577&refresh_token=99071ceb&x-expires=1766041200&x-signature=7KhFTiq6zzu9kXv6QvNeUL1znFI%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva"
+          },
+          "images": [
+            "https://p16-sign-va.tiktokcdn.com/tos-maliva-i-photomode-us/1da3b83a371241609a2fa1e0dd6a5130~tplv-photomode-image-v1:q70.jpeg?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=658c5b07&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=ack2Wa7%2B5s%2BmG05%2BXLz%2FPPLfv50%3D",
+            "https://p16-sign-va.tiktokcdn.com/tos-maliva-i-photomode-us/f1dba1e7d2344dfca227ae85ad847272~tplv-photomode-image-v1:q70.jpeg?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=920f7863&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=xZDwXPmUlra1hlrbzVXQCoj9ml8%3D"
+          ],
+          "is_top": 0
+        }
+      },
+      {
+        "json": {
+          "source": "trending",
+          "region": "US",
+          "aweme_id": "v15044gf0000d3vtvgnog65rg5fg6uj0",
+          "video_id": "7566012354152893727",
+          "title": "The world’s STEEPEST coaster is now open and it’s TERRIFYING! 📍TMNT Shellraiser at American Dream @americandream  Use code COASTER15 to save $$ when purchasing tickets ",
+          "cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oADiYe3fNAqNGSCgdwuIAFKo4gfLgBxXH6eBCf~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=18e188c6&x-expires=1766041200&x-signature=VJZnyBFQSMEbdzJ2i4bMHF5fRRU%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "ai_dynamic_cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oADiYe3fNAqNGSCgdwuIAFKo4gfLgBxXH6eBCf~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=18e188c6&x-expires=1766041200&x-signature=VJZnyBFQSMEbdzJ2i4bMHF5fRRU%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "origin_cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oECzEA8fAf3GAQ4DjxQHrkFaRGQfU7f4F9FMD9~tplv-tiktokx-360p.webp?dr=14555&refresh_token=edef550c&x-expires=1766041200&x-signature=HUELPlMrL1kSumkjrLFxEOVFdKg%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED&ftpl=1",
+          "duration": 43,
+          "play": "https://v16m-default.tiktokcdn.com/edb6436dd1344aa0f5284f259302f2f2/6942a9f3/video/tos/maliva/tos-maliva-ve-0068c799-us/oQnfUQCID4tf7F49AEfEAdg0GFArhjQRW3MGOf/?a=30192&bti=Ozk3QGo4dik3OjlmMzAuYCM6bTQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=6390&bt=3195&cs=0&ds=6&ft=EeF4ntZWD00Q12NvzqRm.IxRkYQyhF_45SY&mime_type=video_mp4&qs=0&rc=O2hlM2VnPDM3OGc0PGVmNUBpM3hqOHU5cmp3NjMzaTczNEBiLWIyLTEyNmAxXjE2LS82YSNnM2NkMmRrc3NhLS1kMTJzcw%3D%3D&vvpl=1&l=20251217150158B75786C2E1B5FE04F94A&btag=e00088000",
+          "wmplay": "https://v16m-default.tiktokcdn.com/44034c959286486d626b4bbfb0b73f24/6942a9f3/video/tos/maliva/tos-maliva-ve-0068c799-us/owMfxgUDjF439DGFEiN7gAQARQ4fffZArGIEXC/?a=30192&bti=Ozk3QGo4dik3OjlmMzAuYCM6bTQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=6464&bt=3232&cs=0&ds=3&ft=EeF4ntZWD00Q12NvzqRm.IxRkYQyhF_45SY&mime_type=video_mp4&qs=0&rc=aGY7MzlmZjg7ZjhlMzM6N0BpM3hqOHU5cmp3NjMzaTczNEBjYzEvY2IvXjUxNDUxNDIyYSNnM2NkMmRrc3NhLS1kMTJzcw%3D%3D&vvpl=1&l=20251217150158B75786C2E1B5FE04F94A&btag=e00088000",
+          "size": 17732163,
+          "wm_size": 17935072,
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/tx27566012431223229215.mp3",
+          "music_info": {
+            "id": "7566012310398061342",
+            "title": "original sound - the_coaster_scoop",
+            "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/tx27566012431223229215.mp3",
+            "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/020f306c9197e0b3917117a6a8e73877~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=67be8cca&x-expires=1766041200&x-signature=9zhbn4wSrIBTsRv7XAEc2dQ5wJY%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva",
+            "author": "The Coaster Scoop",
+            "original": false,
+            "duration": 43,
+            "album": ""
+          },
+          "play_count": 4056882,
+          "digg_count": 259094,
+          "comment_count": 1067,
+          "share_count": 36074,
+          "download_count": 548,
+          "create_time": 1761599544,
+          "anchors": null,
+          "anchors_extras": "",
+          "is_ad": true,
+          "commerce_info": {
+            "adv_promotable": true,
+            "bc_label_test_text": "Paid partnership",
+            "branded_content_type": 12
+          },
+          "commercial_video_info": "",
+          "item_comment_settings": 3,
+          "mentioned_users": "",
+          "author": {
+            "id": "6837507274723738630",
+            "unique_id": "the_coaster_scoop",
+            "nickname": "The Coaster Scoop",
+            "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/020f306c9197e0b3917117a6a8e73877~tplv-tiktokx-cropcenter:300:300.jpeg?dr=14577&refresh_token=32d2cf3d&x-expires=1766041200&x-signature=yKIDjbpOg5wUJXdNkScg2eQ45fA%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva"
+          },
+          "is_top": 0
+        }
+      },
+      {
+        "json": {
+          "source": "trending",
+          "region": "US",
+          "aweme_id": "",
+          "video_id": "7568923383337913607",
+          "title": "#texas #usa🇺🇸 #dallastx #latinasenusa #emigranteslatinos ",
+          "cover": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-i-photomode-sg/dd40c8263b944ca293e59eb56da32689~tplv-photomode-image-v1:q70.webp?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=c7a8b5ad&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=ZnEiBMjY%2FvrZhensgwvSnvZTR%2BI%3D",
+          "ai_dynamic_cover": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-i-photomode-sg/dd40c8263b944ca293e59eb56da32689~tplv-photomode-image-v1:q70.webp?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=c7a8b5ad&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=ZnEiBMjY%2FvrZhensgwvSnvZTR%2BI%3D",
+          "origin_cover": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-i-photomode-sg/dd40c8263b944ca293e59eb56da32689~tplv-photomode-image-v1:q70.webp?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=c7a8b5ad&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=ZnEiBMjY%2FvrZhensgwvSnvZTR%2BI%3D",
+          "duration": 0,
+          "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6997395325346384645.mp3",
+          "wmplay": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6997395325346384645.mp3",
+          "size": 0,
+          "wm_size": 0,
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6997395325346384645.mp3",
+          "music_info": {
+            "id": "6997395183839070982",
+            "title": "original sound - 20tadeo3",
+            "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6997395325346384645.mp3",
+            "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/a4383cc41ea591281b75b1df39e53aca~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=29caae52&x-expires=1766041200&x-signature=w7qy6fppHI7%2BZfDdGLlmppHEGmY%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva",
+            "author": "Tadeo LH 🫡",
+            "original": false,
+            "duration": 51,
+            "album": ""
+          },
+          "play_count": 94261,
+          "digg_count": 4993,
+          "comment_count": 674,
+          "share_count": 62,
+          "download_count": 2,
+          "create_time": 1762277309,
+          "anchors": null,
+          "anchors_extras": "",
+          "is_ad": false,
+          "commerce_info": {
+            "adv_promotable": false,
+            "branded_content_type": 0
+          },
+          "commercial_video_info": "",
+          "item_comment_settings": 0,
+          "mentioned_users": "",
+          "author": {
+            "id": "7520394167367156744",
+            "unique_id": "nicoleevannereyes",
+            "nickname": "nicoleevannereyes",
+            "avatar": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/81c2d4d0ff19a2752d3c709bd0459370~tplv-tiktokx-cropcenter:300:300.jpeg?dr=14577&refresh_token=a2df67e0&x-expires=1766041200&x-signature=iV2xnENC6x7RfWQd7OV3yNt9iDk%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva"
+          },
+          "images": [
+            "https://p16-sign-sg.tiktokcdn.com/tos-alisg-i-photomode-sg/dd40c8263b944ca293e59eb56da32689~tplv-photomode-image-v1:q70.jpeg?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=4223dbe2&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1767250800&x-signature=qwy%2Fur9k86GobcD5CmmhunMOXCk%3D"
+          ],
+          "is_top": 0
+        }
+      },
+      {
+        "json": {
+          "source": "trending",
+          "region": "US",
+          "aweme_id": "v12300gd0001d4737fnog65idgdev5tg",
+          "video_id": "7570044724950601015",
+          "title": "Welcome to Zang Flats — where modern design meets everyday comfort ✨ From quartz countertops and Samsung appliances to 9′ ceilings and warm, open spaces, every detail feels just right. Unwind by the pool, get a workout in, or catch up with friends in the lounge — we can’t wait to welcome you home 😌 . . . Luxury apartments in Bishop Arts District Dallas, New apartments for rent Dallas TX, Pet friendly apartments Dallas, Apartments near downtown Dallas, Modern apartments Dallas with pool, Studio apartment Dallas, 1 bedroom apartment Dallas, 2 bedroom apartment Dallas, Dallas apartments near Bishop Arts District, Gated parking apartments Dallas TX, Live work apartments Dallas",
+          "cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-85c255-tx/okeDQgds2J9VwzGcLeCkQRuZAGL4HSJGHfGkbI~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=2cc6006d&x-expires=1766041200&x-signature=PLbuu9ueiM8SJ6jIzNKWI%2F6qck0%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "ai_dynamic_cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-85c255-tx/okeDQgds2J9VwzGcLeCkQRuZAGL4HSJGHfGkbI~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=2cc6006d&x-expires=1766041200&x-signature=PLbuu9ueiM8SJ6jIzNKWI%2F6qck0%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "origin_cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-85c255-tx/o8tOMgyv2UvAvQSi4B87bl4MBAIagirzHMSBI~tplv-tiktokx-360p.webp?dr=14555&refresh_token=889edee6&x-expires=1766041200&x-signature=OT2hhdlGUf6J7AXOQNwemyKSdqU%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED&ftpl=1",
+          "duration": 8,
+          "play": "https://v16m-default.tiktokcdn.com/77748b834521e1ddc24aea576d697f88/6942a9d0/video/tos/maliva/tos-maliva-ve-85c255c799-us/ogcfLCCgDIsJ4keeJQQgGuGSJs2LIH9GCAWdZH/?a=30192&bti=Ozk3QGo4dik3OjlmMzAuYCM6bTQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=2090&bt=1045&cs=0&ds=6&ft=EeF4ntZWD00Q12NvzqRm.IxRkYQyhF_45SY&mime_type=video_mp4&qs=0&rc=OzdpOzkzOmloZTw3MzU1ZEBpajhoamw5cmk2NzQzZzM2NEAuX2NgMy0zNl8xL19hMy4wYSNxc2FhMmRrNDRhLS1kLS9zcw%3D%3D&vvpl=1&l=20251217150158B75786C2E1B5FE04F94A&btag=e000b0000",
+          "wmplay": "https://v16m-default.tiktokcdn.com/0243c106fd6b1b2d55018daf789cddb8/6942a9d0/video/tos/maliva/tos-maliva-ve-85c255c799-us/osVA8blIUHaiBgB4v7YvvByrd4MMOv5iQBEQz/?a=30192&bti=Ozk3QGo4dik3OjlmMzAuYCM6bTQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=2176&bt=1088&cs=0&ds=3&ft=EeF4ntZWD00Q12NvzqRm.IxRkYQyhF_45SY&mime_type=video_mp4&qs=0&rc=NDYzNjk3PGRlaDM0Zzo4O0Bpajhoamw5cmk2NzQzZzM2NEBiNDE0Yl8yXzExLTFgYjI2YSNxc2FhMmRrNDRhLS1kLS9zcw%3D%3D&vvpl=1&l=20251217150158B75786C2E1B5FE04F94A&btag=e000b0000",
+          "size": 1124375,
+          "wm_size": 1170344,
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/7570044930157054775.mp3",
+          "music_info": {
+            "id": "7570044828336114446",
+            "title": "original sound - zangflats",
+            "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/7570044930157054775.mp3",
+            "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d92d459f71d07eff610b4c91ba135f11~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=572f4f15&x-expires=1766041200&x-signature=%2FnJ%2FW7Zdy5S4XPlaXlzIYsqImak%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva",
+            "author": "Zang Flats | Dallas Apartments",
+            "original": false,
+            "duration": 8,
+            "album": ""
+          },
+          "play_count": 308049,
+          "digg_count": 733,
+          "comment_count": 2,
+          "share_count": 25,
+          "download_count": 9,
+          "create_time": 1762538435,
+          "anchors": null,
+          "anchors_extras": "",
+          "is_ad": true,
+          "commerce_info": {
+            "adv_promotable": false,
+            "branded_content_type": 0
+          },
+          "commercial_video_info": "",
+          "item_comment_settings": 0,
+          "mentioned_users": "",
+          "author": {
+            "id": "7564510761952920631",
+            "unique_id": "zangflats",
+            "nickname": "Zang Flats | Dallas Apartments",
+            "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d92d459f71d07eff610b4c91ba135f11~tplv-tiktokx-cropcenter:300:300.jpeg?dr=14577&refresh_token=cddd403c&x-expires=1766041200&x-signature=JXhld2bhMfE4IyYOqY5O9dMqQ6I%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva"
+          },
+          "is_top": 0
+        }
+      },
+      {
+        "json": {
+          "source": "trending",
+          "region": "US",
+          "aweme_id": "v12044gd0000d3dg1knog65trshu3vk0",
+          "video_id": "7555635077221321998",
+          "title": "My FAVORITE cooking hack is this app 🙌🏼  #CookingHacks #cookingtips #recipes #homecooking #digitalcookbook ",
+          "cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ogeIAWtEhsAAHHRKfXg1IiQAbMej8oANjAERDk~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=5ae171bb&x-expires=1766041200&x-signature=lAKx76PsK1wcOY%2BIUeNNB65kdac%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "ai_dynamic_cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ogeIAWtEhsAAHHRKfXg1IiQAbMej8oANjAERDk~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=5ae171bb&x-expires=1766041200&x-signature=lAKx76PsK1wcOY%2BIUeNNB65kdac%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "origin_cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/o8fXoICDI9jkTG7ld8ufbIgfRjqAIMwytAQAAH~tplv-tiktokx-360p.webp?dr=14555&refresh_token=2de62d7c&x-expires=1766041200&x-signature=e639RTOvJAx0O%2FcqrpOC29B0htA%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED&ftpl=1",
+          "duration": 18,
+          "play": "https://v16m-default.tiktokcdn.com/698700279fb06dd1b20a92e75a745be5/6942a9da/video/tos/maliva/tos-maliva-ve-0068c799-us/oIfDKjMlIXAGE4CtoQQk3AIBHugQ8jfbRIknAf/?a=30192&bti=Ozk3QGo4dik3OjlmMzAuYCM6bTQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=1664&bt=832&cs=0&ds=6&ft=EeF4ntZWD00Q12NvzqRm.IxRWIQyhF_45SY&mime_type=video_mp4&qs=0&rc=M2g0OTg7OWhoZDpnZWg5aEBpM3l4dnc5cm5qNjMzZzczNEAxMzIzYS8tNS8xYzZiMzFjYSNoMGVvMmRrLmFhLS1kMS9zcw%3D%3D&vvpl=1&l=20251217150158E2438210639F3304F45E&btag=e000b8000",
+          "wmplay": "https://v16m-default.tiktokcdn.com/475ec8b7bcda8fdea7eb51b801253002/6942a9da/video/tos/maliva/tos-maliva-ve-0068c799-us/ocjXjHlfAu9EfQXRogkXQGDtICI8tBDb5AMBIf/?a=30192&bti=Ozk3QGo4dik3OjlmMzAuYCM6bTQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=1742&bt=871&cs=0&ds=3&ft=EeF4ntZWD00Q12NvzqRm.IxRWIQyhF_45SY&mime_type=video_mp4&qs=0&rc=NTs6NzM1Ozs5PDU6PGk6OEBpM3l4dnc5cm5qNjMzZzczNEBjNTVfXzIzX2MxMDYyLy8xYSNoMGVvMmRrLmFhLS1kMS9zcw%3D%3D&vvpl=1&l=20251217150158E2438210639F3304F45E&btag=e000b8000",
+          "size": 1959667,
+          "wm_size": 2053685,
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/7555635239624706830.mp3",
+          "music_info": {
+            "id": "7555635197912713997",
+            "title": "original sound - ashlovescooking",
+            "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/7555635239624706830.mp3",
+            "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/40a74b08e58184bc97581dfbd973859b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=e459dc1d&x-expires=1766041200&x-signature=NIhjkK%2FEbMCmaQdCONQtg480Qm8%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva",
+            "author": "Ashley",
+            "original": false,
+            "duration": 18,
+            "album": ""
+          },
+          "play_count": 4390024,
+          "digg_count": 132245,
+          "comment_count": 349,
+          "share_count": 143016,
+          "download_count": 3206,
+          "create_time": 1759183419,
+          "anchors": null,
+          "anchors_extras": "",
+          "is_ad": true,
+          "commerce_info": {
+            "adv_promotable": false,
+            "branded_content_type": 0
+          },
+          "commercial_video_info": "",
+          "item_comment_settings": 0,
+          "mentioned_users": "",
+          "author": {
+            "id": "7553775420316386317",
+            "unique_id": "ashlovescooking",
+            "nickname": "Ashley",
+            "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/40a74b08e58184bc97581dfbd973859b~tplv-tiktokx-cropcenter:300:300.jpeg?dr=14577&refresh_token=ce0f54d5&x-expires=1766041200&x-signature=24L2OA09e9NSxUbvMWph1ZmidYE%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva"
+          },
+          "is_top": 0
+        }
+      },
+      {
+        "json": {
+          "source": "trending",
+          "region": "US",
+          "aweme_id": "v12044gd0000d4s9k37og65q89q4e8lg",
+          "video_id": "7581979223015918861",
+          "title": "Tired of concrete slowing you down? Cut your mixing time by 70% with MudMixer and get the perfect pour.",
+          "cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oM6aPQU5BmriaiHEiD4AqnIR4IQBXSIgTPChP~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=4f080444&x-expires=1766041200&x-signature=Z%2BeEg%2Fd%2FyBg2k9gftAx5mieGd%2Bk%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "ai_dynamic_cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oM6aPQU5BmriaiHEiD4AqnIR4IQBXSIgTPChP~tplv-tiktok-shrink:640:640.jpeg?dr=14571&refresh_token=4f080444&x-expires=1766041200&x-signature=Z%2BeEg%2Fd%2FyBg2k9gftAx5mieGd%2Bk%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED",
+          "origin_cover": "https://p16-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oYIiaQI6EihDgrUIAmBiR4aHwOBVnI4a4TBPa~tplv-tiktokx-360p.webp?dr=14555&refresh_token=607d536e&x-expires=1766041200&x-signature=HKnxzyKQSt5QcD8gFwgIakmb0Z0%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva&s=FEED&ftpl=1",
+          "duration": 48,
+          "play": "https://v16m-default.tiktokcdn.com/323a8eab1d2f27af63dec88bb03ff6e5/6942a9f8/video/tos/maliva/tos-maliva-ve-0068c799-us/oUgBtAITUTQiaiDBa4mYR6r5EPHE4QH9In0ii/?a=30192&bti=OHYpOTY0Zik3OjlmOm01MzE6ZDQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=2622&bt=1311&cs=0&ds=3&ft=EeF4ntZWD00Q12NvzqRm.IxRiYQyhF_45SY&mime_type=video_mp4&qs=0&rc=NWkzOzk4ZzRlZGRoODU2N0Bpajs3PHQ5cjY8NzMzZzczNEBhYWE0LWI1Xi4xYV5gNF4xYSNpYm41MmQ0aHBhLS1kMS9zcw%3D%3D&vvpl=1&l=2025121715015840212812B2ED830517BC&btag=e00088000",
+          "wmplay": "https://v16m-default.tiktokcdn.com/154d27661902fc180b61a035b0f5c4de/6942a9f8/video/tos/maliva/tos-maliva-ve-0068c799-us/oAxW0FBRSDphOiEoNgOOA5DOQfRMh4DE0fINJg/?a=30192&bti=OHYpOTY0Zik3OjlmOm01MzE6ZDQ0MDo%3D&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=2384&bt=1192&cs=0&ds=3&ft=EeF4ntZWD00Q12NvzqRm.IxRiYQyhF_45SY&mime_type=video_mp4&qs=0&rc=aTNpaTU1NWdpPGg3PDo2O0Bpajs3PHQ5cjY8NzMzZzczNEAtNjQuNF8vNV8xYDNhMzUwYSNpYm41MmQ0aHBhLS1kMS9zcw%3D%3D&vvpl=1&l=2025121715015840212812B2ED830517BC&btag=e00088000",
+          "size": 8198956,
+          "wm_size": 7450963,
+          "music": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/7581979382308834061.mp3",
+          "music_info": {
+            "id": "7581979338514434830",
+            "title": "original sound - the_mud_mixer",
+            "play": "https://sf16-ies-music-va.tiktokcdn.com/obj/ies-music-ttp-dup-us/7581979382308834061.mp3",
+            "cover": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1b1afc5fa8016d1873288e3134816bab~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6db10ac9&x-expires=1766041200&x-signature=rwQZDAyX5w0E92ns%2BlXWc90qg8Q%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva",
+            "author": "MudMixer™",
+            "original": false,
+            "duration": 48,
+            "album": ""
+          },
+          "play_count": 60316,
+          "digg_count": 68,
+          "comment_count": 3,
+          "share_count": 2,
+          "download_count": 1,
+          "create_time": 1765317140,
+          "anchors": null,
+          "anchors_extras": "",
+          "is_ad": true,
+          "commerce_info": {
+            "adv_promotable": true,
+            "branded_content_type": 0
+          },
+          "commercial_video_info": "",
+          "item_comment_settings": 0,
+          "mentioned_users": "",
+          "author": {
+            "id": "7053112619889820719",
+            "unique_id": "the_mud_mixer",
+            "nickname": "MudMixer™",
+            "avatar": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1b1afc5fa8016d1873288e3134816bab~tplv-tiktokx-cropcenter:300:300.jpeg?dr=14577&refresh_token=fa88a620&x-expires=1766041200&x-signature=WmTmc58qungVVJugYTisTh4HLeI%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=maliva"
+          },
+          "is_top": 0
+        }
+      },
+      {
+        "json": {
+          "success": true,
+          "pages_fetched": 1,
+          "total_pushed": 6,
+          "fetched_at": "2025-12-17T07:02:01.049Z"
+        }
+      }
+    ]
+  },
+  "versionId": "e4841d1f-e0a9-422d-a43c-a774a16084b3",
+  "versionCounter": 3,
+  "triggerCount": 0,
+  "shared": [
+    {
+      "updatedAt": "2025-12-17T05:51:43.016Z",
+      "createdAt": "2025-12-17T05:51:43.016Z",
+      "role": "workflow:owner",
+      "workflowId": "BciMiuh2hr7281Zm",
+      "projectId": "9ZLXGFMqYY5Qh0dZ",
+      "project": {
+        "updatedAt": "2025-04-30T06:24:01.804Z",
+        "createdAt": "2025-04-28T07:43:19.369Z",
+        "id": "9ZLXGFMqYY5Qh0dZ",
+        "name": "HR  Wangoes <hr@wangoes.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "projectRelations": [
+          {
+            "updatedAt": "2025-04-28T07:43:19.369Z",
+            "createdAt": "2025-04-28T07:43:19.369Z",
+            "userId": "e2104790-a2ce-47aa-bd6b-0032b4745bdc",
+            "projectId": "9ZLXGFMqYY5Qh0dZ",
+            "user": {
+              "updatedAt": "2025-12-26T05:02:02.265Z",
+              "createdAt": "2025-04-28T07:43:18.347Z",
+              "id": "e2104790-a2ce-47aa-bd6b-0032b4745bdc",
+              "email": "hr@wangoes.com",
+              "firstName": "HR ",
+              "lastName": "Wangoes",
+              "personalizationAnswers": {
+                "version": "v4",
+                "personalization_survey_submitted_at": "2025-04-30T06:24:42.857Z",
+                "personalization_survey_n8n_version": "1.89.2",
+                "automationGoalDevops": [
+                  "other"
+                ],
+                "companySize": "20-99",
+                "companyType": "saas",
+                "role": "it",
+                "reportedSource": "linkedin"
+              },
+              "settings": {
+                "userActivated": true,
+                "easyAIWorkflowOnboarded": true,
+                "firstSuccessfulWorkflowId": "7WLPoXeVuA2eoJxG",
+                "userActivatedAt": 1746162680417,
+                "npsSurvey": {
+                  "responded": true,
+                  "lastShownAt": 1763531583744
+                },
+                "dismissedCallouts": {
+                  "aiAgentStarterCallout": true
+                }
+              },
+              "disabled": false,
+              "mfaEnabled": false,
+              "lastActiveAt": "2025-12-26",
+              "isPending": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "tags": []
+}
