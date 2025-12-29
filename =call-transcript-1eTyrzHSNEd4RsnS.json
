@@ -6618,7 +6618,7 @@
             "userId": "e2104790-a2ce-47aa-bd6b-0032b4745bdc",
             "projectId": "9ZLXGFMqYY5Qh0dZ",
             "user": {
-              "updatedAt": "2025-12-26T05:02:02.265Z",
+              "updatedAt": "2025-12-29T07:23:36.222Z",
               "createdAt": "2025-04-28T07:43:18.347Z",
               "id": "e2104790-a2ce-47aa-bd6b-0032b4745bdc",
               "email": "hr@wangoes.com",
@@ -6651,7 +6651,7 @@
               },
               "disabled": false,
               "mfaEnabled": false,
-              "lastActiveAt": "2025-12-26",
+              "lastActiveAt": "2025-12-28",
               "isPending": false
             }
           }
